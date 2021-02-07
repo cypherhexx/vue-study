@@ -14,6 +14,7 @@
         },
         computed: {
             theme() {
+                conosle.log("test commit")
                 return this.$store.getters.THEME_COLOR
             },
         },
